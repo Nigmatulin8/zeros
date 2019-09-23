@@ -37,7 +37,6 @@ function zeroCounter(n) {
 	let fiveCounter = 0;
 
 	for(let i = 1; i <= n; i++) {
-		
 		if (i % 2 == 0)  { twoCounter++; }	
 		if (i % 4 == 0)  { twoCounter++; }
 		if (i % 8 == 0)  { twoCounter++; }
@@ -59,7 +58,6 @@ function doubleFactorial(n) {
 	
 	if (n % 2 == 0) {
 		for(let i = 2; i <= n; i += 2) {
-			
 			if (i % 2  == 0) { twoCounter++; }
 			if (i % 4  == 0) { twoCounter++; }
 			if (i % 8  == 0) { twoCounter++; }
@@ -70,7 +68,6 @@ function doubleFactorial(n) {
 
 	else {
 		for (let i = 1; i <= n; i += 2) {
-
 			if (i % 5  == 0) { fiveCounter++; }
 			if (i % 25 == 0) { fiveCounter++; }
 		}
